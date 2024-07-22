@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>maven.mc-restTemplateTest.parent</artifactId>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.fastcube.tibco.Infra.rexel_app1.restTemplateTest</groupId>
+		<artifactId>maven.restTemplateTest.parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../maven.restTemplateTest.parent/pom.xml</relativePath>
+	</parent>
+
+	<modules>
+		<module>../bw.mc-restTemplateTest</module>
+		<module>../bw.mc-restTemplateTest.application</module>
+	</modules>
+</project>
